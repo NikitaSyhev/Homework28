@@ -11,4 +11,4 @@ struct product {
 
 void print_prod(product &P);
 int full_price(product &P);
-int sell(product& P, int number);
+void sell(product& P, int number);
