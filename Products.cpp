@@ -16,7 +16,7 @@ int full_price(product& P) {
 void sell(product& P, int number) {
 	int remains;
 	if (number > P.number)
-		std::cout << "Столько пакетов молока нет на складе.\n";
+		std::cout << "Столько продуктов нет на складе.\n";
 	else
 	remains = P.number - number;
 }
